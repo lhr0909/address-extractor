@@ -10,7 +10,7 @@ python = ">=3.7"
 postal = "^1.1.9"
 fastapi = "^0.63.0"
 uvicorn = "^0.13.4"
-pyap = "^0.3.1"
+pyap = { git = "https://github.com/lhr0909/pyap.git", branch = "master" }
 nltk = "^3.5"
 
 [tool.poetry.dev-dependencies]

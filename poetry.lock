@@ -75,12 +75,16 @@ six = "*"
 
 [[package]]
 category = "main"
-description = "Pyap is an MIT Licensed text processing library, written in Python, for detecting and parsing addresses. Currently it supports USA, Canadian and British addresses."
+description = ""
 name = "pyap"
 optional = false
 python-versions = ">=2.7"
 version = "0.3.1"
 
+[package.source]
+reference = "dc2309e057a9f626c1862efa158a6a0e207d11e1"
+type = "git"
+url = "https://github.com/lhr0909/pyap.git"
 [[package]]
 category = "main"
 description = "Data validation and settings management using python 3.6 type hinting"
@@ -164,7 +168,7 @@ version = "*"
 standard = ["websockets (>=8.0.0,<9.0.0)", "watchgod (>=0.6)", "python-dotenv (>=0.13)", "PyYAML (>=5.1)", "httptools (>=0.1.0,<0.2.0)", "uvloop (>=0.14.0,<0.15.0 || >0.15.0,<0.15.1 || >0.15.1)", "colorama (>=0.4)"]
 
 [metadata]
-content-hash = "74b23365def06885d220a3ad463d01c905d4cf794bbcda4a7be46e15eec3a305"
+content-hash = "704fa6c6d6970fa32e754bffef90efa82c0492e0d5452b081b091d07fe8f6d7c"
 python-versions = ">=3.7"
 
 [metadata.files]
@@ -190,10 +194,7 @@ nltk = [
 postal = [
     {file = "postal-1.1.9.tar.gz", hash = "sha256:2158fde6872d57c342b384ca1d0eadd562dc466a8a36f1160919e8189864b1b1"},
 ]
-pyap = [
-    {file = "pyap-0.3.1-py2.py3-none-any.whl", hash = "sha256:d0b0440826fd2bb46018b8e4182cc7b79fbfcb3026f7d32c97384c0c362210c6"},
-    {file = "pyap-0.3.1.tar.gz", hash = "sha256:372ea7b6364a3d2c75ffb26ebbe269ce44d71b48620d57630548bc263a6691db"},
-]
+pyap = []
 pydantic = [
     {file = "pydantic-1.8.1-cp36-cp36m-macosx_10_9_x86_64.whl", hash = "sha256:0c40162796fc8d0aa744875b60e4dc36834db9f2a25dbf9ba9664b1915a23850"},
     {file = "pydantic-1.8.1-cp36-cp36m-manylinux1_i686.whl", hash = "sha256:fff29fe54ec419338c522b908154a2efabeee4f483e48990f87e189661f31ce3"},

@@ -12,7 +12,7 @@ RUN apt-get update && apt-get install -y \
 
 RUN git clone https://github.com/openvenues/libpostal -b $COMMIT
 
-COPY ./*.sh /libpostal/
+COPY ./build_libpostal.sh /libpostal/
 
 WORKDIR /libpostal
 RUN ./build_libpostal.sh

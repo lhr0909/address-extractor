@@ -1,0 +1,11 @@
+version: '3.7'
+
+services:
+  address-extractor:
+    build: .
+    # image: address-extractor:latest
+    restart: always
+    ports:
+      - 7000:7000
+
+# volumes:

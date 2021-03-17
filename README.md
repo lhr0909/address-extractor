@@ -44,4 +44,4 @@ We have a [Dockerfile](./Dockerfile) included, which you could build yourself. T
 
 # Extension
 
-- [address-net (Australian addresses)](https://github.com/jasonrig/address-net)
+- [address-net (Australian addresses)](https://towardsdatascience.com/addressnet-how-to-build-a-robust-street-address-parser-using-a-recurrent-neural-network-518d97b9aebd)
